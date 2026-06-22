@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+	$basetexture "models/desk/cubes/destructible_cube_frame"
+	
+	$detail "paint/prop_paint_white"
+	$detailblendmode 2
+	$detailscale 1
+	
+	Proxies
+	{
+		PaintOverlayColor
+		{
+			resultVar "$detailtint"
+		}
+	}	
+}

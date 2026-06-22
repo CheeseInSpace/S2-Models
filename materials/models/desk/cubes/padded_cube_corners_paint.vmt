@@ -1,0 +1,20 @@
+PBR
+{
+	$basetexture "models/desk/cubes/padded_cube_corners_color"
+	$bumpmap "models/desk/cubes/padded_cube_corners_normal"
+	
+	$mraotexture "models/desk/cubes/padded_cube_corners_mrao"
+	$model 1
+	
+	$detail "paint/prop_paint_white"
+	$detailblendmode 2
+	$detailscale 1
+	
+	Proxies
+	{
+		PaintOverlayColor
+		{
+			resultVar "$detailtint"
+		}
+	}	
+}
