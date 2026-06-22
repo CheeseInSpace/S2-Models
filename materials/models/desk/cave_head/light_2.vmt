@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models/desk/cave_head/light_2"
+
+	$selfillum 1
+}

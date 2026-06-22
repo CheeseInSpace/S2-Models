@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/cubes/cube_turntable_color"
+	$bumpmap "models/desk/cubes/cube_turntable_normal"
+	
+	$mraotexture "models/desk/cubes/cube_turntable_mrao"
+	$model 1
+}

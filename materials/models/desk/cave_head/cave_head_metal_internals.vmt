@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/cave_head/cave_head_metal_internals"
+	$bumpmap "models/desk/cave_head/cave_head_metal_internals_normal"
+	
+	$mraotexture "models/desk/cave_head/cave_head_metal_internals_mrao"
+	$model 1
+}

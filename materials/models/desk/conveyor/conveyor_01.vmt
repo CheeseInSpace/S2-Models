@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/conveyor/conveyor_01_color"
+	$bumpmap "models/desk/conveyor/conveyor_01_normal"
+	
+	$mraotexture "models/desk/conveyor/conveyor_01_mrao"
+	$model 1
+}

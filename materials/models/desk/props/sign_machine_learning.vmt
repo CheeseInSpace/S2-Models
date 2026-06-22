@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/props/sign_machine_learning"
+	$bumpmap "models/desk/props/sign_machine_learning_normal"
+
+	$mraotexture "models/desk/props/sign_machine_learning_mrao"
+	$model 1
+}

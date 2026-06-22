@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/desk/cave_portraits/cave_portraits_canvas_03"
+	$bumpmap "models/desk/cave_portraits/cave_portraits_canvas_normal"
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/desk/lobby/lobby_rug_dusty"
+	$bumpmap "models/desk/lobby/lobby_rug_normal"
+
+	$translucent 1
+}

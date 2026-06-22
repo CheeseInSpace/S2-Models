@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/prison/prison_loudspeaker_01"
+	$bumpmap "models/desk/prison/prison_loudspeaker_01_normal"
+
+	$mraotexture "models/desk/prison/prison_loudspeaker_01_mrao"
+	$model 1
+}

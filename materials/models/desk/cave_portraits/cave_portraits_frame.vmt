@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/cave_portraits/cave_portraits_frame_color"
+	$bumpmap "models/desk/cave_portraits/cave_portraits_frame_normal"
+	
+	$mraotexture "models/desk/cave_portraits/cave_portraits_frame_mrao"
+	$model 1
+}

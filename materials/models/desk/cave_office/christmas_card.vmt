@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/desk/cave_office/christmas_card"
+	$bumpmap "models/desk/cave_office/christmas_card_normal"
+}
