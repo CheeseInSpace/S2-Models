@@ -10,4 +10,4 @@ Big thanks to:
 * [Blender Source Tools](http://steamreview.org/BlenderSourceTools/)
 * [SourceOps](https://github.com/bonjorno7/SourceOps)
 * Lunairekitty - Help with exporting models that have animaitons
-
+* o_velikie_sily - Help with materials
