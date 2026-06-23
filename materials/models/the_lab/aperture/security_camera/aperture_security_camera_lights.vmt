@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/the_lab/aperture/security_camera/aperture_security_camera_lights"
+	$selfillum 1
+	$selfillummask "models/the_lab/aperture/security_camera/aperture_security_camera_lights_selfillum"
+	$model 1
+	
+}

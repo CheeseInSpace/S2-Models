@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	$basetexture "models/the_lab/aperture/security_camera/aperture_security_camera_color"
+	// $mraotexture "models/the_lab/aperture/security_camera/aperture_security_camera_mrao" This is broken
+	$model 1
+	
+}
