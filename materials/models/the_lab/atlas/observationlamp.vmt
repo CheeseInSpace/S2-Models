@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/atlas/observationlamp"
+	$selfillum 1
+	$selfillummask "models/the_lab/atlas/observationlamp_glow"
+    $model 1
+}

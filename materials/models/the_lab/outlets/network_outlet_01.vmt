@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/outlets/network_outlet"
+    $model 1
+}

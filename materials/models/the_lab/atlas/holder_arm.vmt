@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/atlas/holder_arm"
+    $model 1
+}

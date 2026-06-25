@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/glados/glados_head"
+    $model 1
+}

@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/glados/render_glados_selfillum"
+	$selfillum 1
+	$selfillummask "models/the_lab/glados/render_glados_selfillum_selfillum"
+    $model 1
+}

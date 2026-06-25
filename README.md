@@ -14,3 +14,9 @@ Big thanks to:
 * garmezon - ["Exporting Models from Blender to Source"](https://youtu.be/wvJLJXa4jhU?si=3jNSmbEMLHjHN5Tl) Tutorial <!-- No like big thanks -->
 * Lunairekitty - Help with exporting models that have animaitons
 * o_velikie_sily - Help with MRAO materials
+
+# Looking for more Aperture Desk Job/The Lab models? 
+[Portal Mapping and Modding](https://discord.gg/pmam):
+* alexander_furby - [Desk Job Vactube Accelerator](https://discord.com/channels/830239808596606976/1404593677476696125/1404593677476696125) 
+* alexander_furby - [Desk Job Pipes](https://discord.com/channels/830239808596606976/1404193193888579605/1404193193888579605)
+* Wii2 - [Robot Repair Gantry Hoist & Carriage](https://discord.com/channels/830239808596606976/1376819917655117864/1376819917655117864) 

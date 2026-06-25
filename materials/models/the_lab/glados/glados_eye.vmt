@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/the_lab/glados/glados_eye"
+                "Proxies"
+                {
+                "AnimatedTexture"
+                {
+               "animatedTextureVar" "$basetexture"
+               "animatedTextureFrameNumVar" "$frame"
+               "animatedTextureFrameRate" "7"
+}
+}
+	"$selfillum" 1
+	"$selfillumtint" "[5 5 1]"
+}
