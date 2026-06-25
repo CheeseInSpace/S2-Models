@@ -1,7 +1,7 @@
 PBR
 {
 	$basetexture "models/desk/prison/prison_security_camera_01"
-	$bumpmap "models/desk/prison/prison_security_camera_01_normal"
+	$bumpmap "deafult/deafult_normal"
 	
 	$mraotexture "models/desk/prison/prison_security_camera_01_mrao"
 	$model 1

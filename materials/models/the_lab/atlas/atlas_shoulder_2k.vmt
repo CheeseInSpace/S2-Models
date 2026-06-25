@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/atlas/atlas_shoulder_2k"
+    $model 1
+}

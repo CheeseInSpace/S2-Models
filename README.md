@@ -2,8 +2,8 @@
 Repo that has models from The Lab and Aperture Desk job ported over to P2:CE
 
 > [!IMPORTANT]  
-> This is work in progress, and should not be used as of now <br>
-> Feel free to contribute to this Repo
+> This is work in progress, and should not be used as of now. <br>
+> Feel free to contribute to this Repo.
 
 # Special Thanks
 Big thanks to:
@@ -11,5 +11,6 @@ Big thanks to:
 * [SourceOps](https://github.com/bonjorno7/SourceOps)
 * [MareTF](https://github.com/craftablescience/MareTF)
 * [Source 2 Viewer](https://s2v.app/)
+* garmezon - ["Exporting Models from Blender to Source"](https://youtu.be/wvJLJXa4jhU?si=3jNSmbEMLHjHN5Tl) Tutorial <!-- No like big thanks -->
 * Lunairekitty - Help with exporting models that have animaitons
-* o_velikie_sily - Help with materials
+* o_velikie_sily - Help with MRAO materials

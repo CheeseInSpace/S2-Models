@@ -1,7 +1,11 @@
-VertexLitGeneric
+PBR
 {
 	$basetexture "models/desk/lobby/lobby_rug_tint"
 	$bumpmap "models/desk/lobby/lobby_rug_normal"
+	
+	$mraotexture "models/desk/lobby/lobby_rug_mrao"
+	
+	$model 1
 
 	$translucent 1
 }

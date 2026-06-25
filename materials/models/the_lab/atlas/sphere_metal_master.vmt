@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+    $basetexture "models/the_lab/atlas/sphere_metal_master"
+    $model 1
+}
