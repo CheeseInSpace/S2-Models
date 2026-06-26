@@ -1,0 +1,5 @@
+LightmappedGeneric
+{
+	$basetexture "desk/prison/prison_wall_01"
+	$basetexturetransform "center 0 0 scale 2 2 rotate 0 translate 0 0"
+}

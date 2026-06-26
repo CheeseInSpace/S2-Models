@@ -10,6 +10,6 @@
                "animatedTextureFrameRate" "7"
 }
 }
-	"$selfillum" 1
-	"$selfillumtint" "[5 5 1]"
+	$selfillum 1
+	"$color" "[5 5 2]"
 }

@@ -3,7 +3,7 @@ versioninfo
 	"editorextension" "strata"
 	"editorversion" "400"
 	"editorbuild" "10773"
-	"mapversion" "172"
+	"mapversion" "204"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -23,33 +23,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(86.4894 -191.434 94.3644)"
-			"angle" "[5.9999 132.801 0]"
+			"position" "(72.0633 1183.04 69.3838)"
+			"angle" "[-0.399906 92.7996 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(194.203 -1024.6 65536)"
-			"zoom" "177.2"
+			"position" "(368.251 -281.891 65536)"
+			"zoom" "0.518398"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 1949.58 84.1346)"
-			"zoom" "2.67483"
+			"position" "(65536 -224.816 105.51)"
+			"zoom" "1.07495"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(154.007 0 88.4263)"
-			"zoom" "0.895798"
+			"position" "(92.5007 0 75.1545)"
+			"zoom" "1.28995"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "172"
+	"mapversion" "204"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -58,6 +58,378 @@ world
 	"maxpropscreenwidth" "-1"
 	"paintinmap" "1"
 	"skyname" "sky_black_nofog"
+	solid
+	{
+		"id" "10114"
+		side
+		{
+			"id" "414"
+			"plane" "(480 256 256) (480 256 0) (512 256 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 256 256"
+				"point" "1 480 256 0"
+				"point" "2 512 256 0"
+				"point" "3 512 256 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "413"
+			"plane" "(512 1.39877e-06 0) (480 -1.39876e-06 0) (480 -1.39876e-06 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 1.39877e-06 0"
+				"point" "1 480 -1.39876e-06 0"
+				"point" "2 480 -1.39876e-06 256"
+				"point" "3 512 1.39877e-06 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "412"
+			"plane" "(480 -1.39876e-06 256) (480 -1.39876e-06 0) (480 256 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -1.39876e-06 256"
+				"point" "1 480 -1.39876e-06 0"
+				"point" "2 480 256 0"
+				"point" "3 480 256 256"
+			}
+			"material" "DESK/PRISON/PRISON_WALL_01"
+			"uaxis" "[0 -1 0 -1024] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "411"
+			"plane" "(480 256 256) (512 256 256) (512 1.39877e-06 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 256 256"
+				"point" "1 512 256 256"
+				"point" "2 512 1.39877e-06 256"
+				"point" "3 480 -1.39876e-06 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "410"
+			"plane" "(480 -1.39876e-06 0) (512 1.39877e-06 0) (512 256 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -1.39876e-06 0"
+				"point" "1 512 1.39877e-06 0"
+				"point" "2 512 256 0"
+				"point" "3 480 256 0"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "409"
+			"plane" "(512 256 256) (512 256 0) (512 1.39877e-06 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 256 256"
+				"point" "1 512 256 0"
+				"point" "2 512 1.39877e-06 0"
+				"point" "3 512 1.39877e-06 256"
+			}
+			"material" "DESK/PRISON/PRISON_WALL_01"
+			"uaxis" "[0 -1 0 -1024] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 128 113"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "10116"
+		side
+		{
+			"id" "426"
+			"plane" "(512 -5.96364e-05 256) (512 -5.96364e-05 0) (512 -256 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 -5.96364e-05 256"
+				"point" "1 512 -5.96364e-05 0"
+				"point" "2 512 -256 0"
+				"point" "3 512 -256 256"
+			}
+			"material" "DESK/BILLBOARDS/APERTURE_FIREPROOF_PLAYGROUND_MURAL"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "425"
+			"plane" "(480 -256 0) (512 -256 0) (512 -5.96364e-05 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -256 0"
+				"point" "1 512 -256 0"
+				"point" "2 512 -5.96364e-05 0"
+				"point" "3 480 -6.24339e-05 0"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "424"
+			"plane" "(480 -6.24339e-05 256) (512 -5.96364e-05 256) (512 -256 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -6.24339e-05 256"
+				"point" "1 512 -5.96364e-05 256"
+				"point" "2 512 -256 256"
+				"point" "3 480 -256 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "423"
+			"plane" "(480 -256 256) (480 -256 0) (480 -6.24339e-05 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -256 256"
+				"point" "1 480 -256 0"
+				"point" "2 480 -6.24339e-05 0"
+				"point" "3 480 -6.24339e-05 256"
+			}
+			"material" "DESK/BILLBOARDS/APERTURE_FIREPROOF_PLAYGROUND_MURAL"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "422"
+			"plane" "(512 -256 0) (480 -256 0) (480 -256 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 -256 0"
+				"point" "1 480 -256 0"
+				"point" "2 480 -256 256"
+				"point" "3 512 -256 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "421"
+			"plane" "(480 -6.24339e-05 256) (480 -6.24339e-05 0) (512 -5.96364e-05 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -6.24339e-05 256"
+				"point" "1 480 -6.24339e-05 0"
+				"point" "2 512 -5.96364e-05 0"
+				"point" "3 512 -5.96364e-05 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 128 113"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "9822"
+		side
+		{
+			"id" "402"
+			"plane" "(480 -512 256) (480 -512 0) (480 -256 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -512 256"
+				"point" "1 480 -512 0"
+				"point" "2 480 -256 0"
+				"point" "3 480 -256 256"
+			}
+			"material" "DESK/WOOD/APERTURE_PARQUET"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "401"
+			"plane" "(512 -256 0) (480 -256 0) (480 -512 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 -256 0"
+				"point" "1 480 -256 0"
+				"point" "2 480 -512 0"
+				"point" "3 512 -512 0"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "400"
+			"plane" "(512 -512 256) (480 -512 256) (480 -256 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 -512 256"
+				"point" "1 480 -512 256"
+				"point" "2 480 -256 256"
+				"point" "3 512 -256 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "399"
+			"plane" "(512 -256 256) (512 -256 0) (512 -512 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 -256 256"
+				"point" "1 512 -256 0"
+				"point" "2 512 -512 0"
+				"point" "3 512 -512 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "398"
+			"plane" "(480 -256 0) (512 -256 0) (512 -256 256)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 480 -256 0"
+				"point" "1 512 -256 0"
+				"point" "2 512 -256 256"
+				"point" "3 480 -256 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "397"
+			"plane" "(512 -512 256) (512 -512 0) (480 -512 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 512 -512 256"
+				"point" "1 512 -512 0"
+				"point" "2 480 -512 0"
+				"point" "3 480 -512 256"
+			}
+			"material" "PBR/DEV/DEV_PBR_FLOOR"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 128 113"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	solid
 	{
 		"id" "6846"
@@ -3533,6 +3905,279 @@ world
 }
 entity
 {
+	"id" "10158"
+	"classname" "light_rt_spot"
+	"_castentityshadow" "1"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_directmode" "2"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "512"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "1"
+	"_initialshadowsize" "6"
+	"_inner_cone" "30"
+	"_light" "255 234 202 500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "2"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
+	"_zero_percent_distance" "2048"
+	"angles" "-2.0925 4.24164 -177.501"
+	"fadetickinterval" "0.1"
+	"nearz" "4.0"
+	"pitch" "-2.0925"
+	"slopescale" "1.0"
+	"spawnflags" "2"
+	"style" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
+	"origin" "-72.085 -131.028 75.0403"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "9728"
+	"classname" "light_rt_spot"
+	"_castentityshadow" "1"
+	"_cone" "45"
+	"_constant_attn" "0"
+	"_directmode" "2"
+	"_distance" "0"
+	"_dynamicshadowallocation" "0"
+	"_exponent" "1"
+	"_fifty_percent_distance" "512"
+	"_hard_radius_override" "0"
+	"_hard_radius_threshold" "32"
+	"_hardfalloff" "0"
+	"_indirectmode" "1"
+	"_initialshadowsize" "6"
+	"_inner_cone" "30"
+	"_light" "255 234 202 500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightmode" "2"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_nocubemapsprite" "1"
+	"_quadratic_attn" "1"
+	"_removeaftercompile" "0"
+	"_shadoworiginoffset" "0 0 0"
+	"_shadowscale" "1.0"
+	"_specularmode" "2"
+	"_volumetricmode" "2"
+	"_zero_percent_distance" "2048"
+	"angles" "32 175 0"
+	"fadetickinterval" "0.1"
+	"nearz" "4.0"
+	"pitch" "32"
+	"slopescale" "1.0"
+	"spawnflags" "2"
+	"style" "0"
+	"volumetric_density" "0.0"
+	"volumetric_lightscale" "1.0"
+	"origin" "439.915 -35.0278 75.0403"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "9802"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cave_office/cave_rope_barrier.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "0"
+	"uniformscale" "1"
+	"origin" "-64 1408 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9428"
+	"classname" "prop_static"
+	"angles" "0 0 -90"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/desk/cave_office/abstract_canvas.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "-224 -512 128"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "8918"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"delay" "1"
+	"fadescale" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "1"
+	connections
+	{
+		"OnPressed" "the_lab_atlas_holder_arm_1SetAnimationatlas_holder_anim0-1"
+	}
+	"origin" "288 -1120 1.25512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "8949"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"delay" "1"
+	"fadescale" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "1"
+	connections
+	{
+		"OnPressed" "the_lab_atlas_holder_arm_2SetAnimationatlas_holder_anim0-1"
+	}
+	"origin" "288 -1248 1.25512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "9031"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"delay" "1"
+	"fadescale" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "1"
+	connections
+	{
+		"OnPressed" "the_lab_atlas_holder_arm_2SetAnimationatlas_holder_anim_detach0-1"
+	}
+	"origin" "288 -1280 1.25512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "9035"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"delay" "1"
+	"fadescale" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "1"
+	connections
+	{
+		"OnPressed" "the_lab_atlas_holder_arm_1SetAnimationatlas_holder_anim_detach0-1"
+	}
+	"origin" "288 -1152 1.25512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "9156"
+	"classname" "prop_button"
+	"AllowSilentDissolve" "1"
+	"angles" "0 180 0"
+	"delay" "1"
+	"fadescale" "1"
+	"model" "models/props/switch001.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "1"
+	connections
+	{
+		"OnPressed" "the_lab_atlas_lightSetAnimationspotlight_drawer_anim0-1"
+		"OnPressed" "the_lab_atlas_lightSetAnimationspotlight_robotdoor_anim6-1"
+		"OnPressed" "the_lab_atlas_lightSetAnimationspotlight_parts_anim12-1"
+		"OnPressed" "the_lab_atlas_lightSetAnimationspotlight_glados_anim18-1"
+		"OnPressed" "the_lab_atlas_lightSetAnimationatlas_lamp_disassembly25-1"
+	}
+	"origin" "288 -1472 1.25512"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "8596"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -3619,7 +4264,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"health" "0"
-	"holdanimation" "0"
+	"holdanimation" "1"
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
@@ -3641,9 +4286,10 @@ entity
 	"spawnflags" "0"
 	"startdisabled" "0"
 	"suppressanimsounds" "0"
+	"targetname" "the_lab_atlas_holder_arm_2"
 	"texframeindex" "0"
 	"viewhideflags" "0"
-	"origin" "384 -1408 0"
+	"origin" "384 -1248 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -3660,7 +4306,7 @@ entity
 	"angles" "0 270 0"
 	"animateeveryframe" "1"
 	"body" "0"
-	"defaultanim" "atlas_holder_anim_detach"
+	"defaultanim" "idle"
 	"disablebonefollowers" "0"
 	"disableflashlight" "0"
 	"disablereceiveshadows" "0"
@@ -3671,7 +4317,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"health" "0"
-	"holdanimation" "0"
+	"holdanimation" "1"
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
@@ -3693,61 +4339,10 @@ entity
 	"spawnflags" "0"
 	"startdisabled" "0"
 	"suppressanimsounds" "0"
+	"targetname" "the_lab_atlas_holder_arm_1"
 	"texframeindex" "0"
 	"viewhideflags" "0"
-	"origin" "384 -1280 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
-	"id" "6706"
-	"classname" "prop_dynamic"
-	"AllowSilentDissolve" "1"
-	"angles" "0 270 0"
-	"animateeveryframe" "1"
-	"body" "0"
-	"defaultanim" "atlas_holder_anim"
-	"disablebonefollowers" "0"
-	"disableflashlight" "0"
-	"disablereceiveshadows" "0"
-	"effects" "0"
-	"explodedamage" "0"
-	"explodemagnitude" "0"
-	"exploderadius" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"health" "0"
-	"holdanimation" "0"
-	"maxanimtime" "10"
-	"minanimtime" "5"
-	"minhealthdmg" "0"
-	"model" "models/the_lab/aperture/atlas_holder_arm.mdl"
-	"modelscale" "1"
-	"performancemode" "0"
-	"physdamagescale" "1.0"
-	"pressuredelay" "0"
-	"randomanimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"setbodygroup" "0"
-	"shadowcastdist" "0"
-	"shadowdepthnocache" "0"
-	"skin" "0"
-	"solid" "6"
-	"spawnflags" "0"
-	"startdisabled" "0"
-	"suppressanimsounds" "0"
-	"texframeindex" "0"
-	"viewhideflags" "0"
-	"origin" "384 -1152 0"
+	"origin" "384 -1120 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -3873,7 +4468,7 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"health" "0"
-	"holdanimation" "0"
+	"holdanimation" "1"
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
@@ -3895,6 +4490,7 @@ entity
 	"spawnflags" "0"
 	"startdisabled" "0"
 	"suppressanimsounds" "0"
+	"targetname" "the_lab_atlas_light"
 	"texframeindex" "0"
 	"viewhideflags" "0"
 	"origin" "384 -1472 0"
@@ -4965,7 +5561,7 @@ entity
 	"classname" "prop_weighted_cube"
 	"allowfunnel" "1"
 	"AllowSilentDissolve" "1"
-	"angles" "0 0 0"
+	"angles" "0 270 0"
 	"CubeBehavior" "1"
 	"CubeShape" "1"
 	"fademindist" "-1"
@@ -5863,7 +6459,8 @@ entity
 	"id" "113"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"disableshadows" "1"
+	"disableshadowdepth" "1"
+	"disableshadows" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/desk/cave_office/aperture_drop_ceiling.mdl"

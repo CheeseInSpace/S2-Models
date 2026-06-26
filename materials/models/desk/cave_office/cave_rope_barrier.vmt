@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/cave_office/cave_rope_barrier"
+	$bumpmap "models/desk/cave_office/cave_rope_barrier_normal"
+	
+	$mraotexture "models/desk/cave_office/cave_rope_barrier_mrao"
+	$model 1
+}

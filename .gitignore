@@ -1,3 +1,9 @@
 *.png
 *.txt
 /.vs
+
+# Map Related stuff
+*.log
+*.vmx
+*.prt
+*.lin

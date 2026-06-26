@@ -1,0 +1,8 @@
+PBR
+{
+	$basetexture "models/desk/cave_office/abstract_canvas"
+	$bumpmap "models/desk/cave_office/abstract_canvas_normal"
+	
+	$mraotexture "models/desk/cave_office/abstract_canvas_mrao"
+	$model 1
+}

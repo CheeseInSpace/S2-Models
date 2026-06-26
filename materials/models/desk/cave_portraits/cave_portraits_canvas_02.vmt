@@ -1,5 +1,8 @@
-VertexLitGeneric
+PBR
 {
 	$basetexture "models/desk/cave_portraits/cave_portraits_canvas_02"
 	$bumpmap "models/desk/cave_portraits/cave_portraits_canvas_normal"
+	
+	$mraotexture "models/desk/cave_portraits/cave_portraits_canvas_mrao"
+	$model 1
 }
