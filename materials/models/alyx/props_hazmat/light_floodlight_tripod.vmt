@@ -1,0 +1,11 @@
+PBR
+{
+	$basetexture "models/alyx/props_hazmat/light_floodlight_tripod_color"
+	$bumpmap "models/alyx/props_hazmat/light_floodlight_tripod_normal"
+	
+	$mraotexture "models/alyx/props_hazmat/light_floodlight_tripod_mrao"
+	$notint 1
+	$model 1
+	
+	
+}

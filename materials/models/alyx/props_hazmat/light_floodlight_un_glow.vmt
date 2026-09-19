@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models/alyx/props_hazmat/light_floodlight_glow"
+    $selfillum 0
+}

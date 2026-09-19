@@ -1,5 +1,5 @@
 # S2 Models in P2:CE
-Repo that has models from The Lab and Aperture Desk job ported over to P2:CE
+Repo that has models from Half-Life: Alyx, The Lab and Aperture Desk job ported over to P2:CE
 
 I ask that these not be reuploaded anywhere without my permission, even though they're from S2 games. I still put a lot of effort into porting them and editing things.
 

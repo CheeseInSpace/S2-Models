@@ -1,0 +1,11 @@
+PBR
+{
+	$basetexture "models/alyx/props_hazmat/light_floodlight_wheels_color"
+	$bumpmap "models/alyx/props_hazmat/light_floodlight_wheels_normal"
+	
+	$mraotexture "models/alyx/props_hazmat/light_floodlight_wheels_mrao"
+	$notint 0
+	$model 1
+	
+	
+}
