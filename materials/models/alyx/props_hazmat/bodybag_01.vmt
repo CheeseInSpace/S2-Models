@@ -1,0 +1,10 @@
+PBR
+{
+	$basetexture "models/alyx/props_hazmat/bodybag_01_color"
+	$bumpmap "models/alyx/props_hazmat/bodybag_01_normal"
+	
+	$mraotexture "models/alyx/props_hazmat/bodybag_01_mrao"
+	$model 1
+	
+	
+}

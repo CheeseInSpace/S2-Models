@@ -1,5 +1,7 @@
 VertexLitGeneric
 {
 	$basetexture "models/desk/cave_head/light_2"
-	$selfillum 1
+	$detail "models/desk/cave_head/light_2"
+	$detailscale 1 
+	$detailblendmode 5
 }
